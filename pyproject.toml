@@ -3,6 +3,9 @@ name = "my_fake_project"
 version = "0.1.0"
 description = ""
 authors = ["Paul Storey <paul.storey@bodleian.ox.ac.uk>"]
+packages = [
+    { include = "package_a", from = "src" },
+    ]
 
 [tool.poetry.dependencies]
 python = "^3.8"
